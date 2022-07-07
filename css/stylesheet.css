@@ -1,0 +1,46 @@
+/*
+BODY-COLOR // BG-COLOR2 // BG-COLOR3 - SÃO NOSSAS 3 CORES DO SITE
+*/
+.body-color{
+    background-color: #F7F7FF;
+}
+
+.bg-color2{
+    background-color: #6279B8;
+}
+
+.bg-color3{
+    background-color: #1B1F3B;
+}
+
+
+/*
+CLASS LOGIN - DEFINE A COR DO TEXTO COMO BRANCO E TIRA LINHAS EMBAIXO DO TEXTO
+*/
+.login{
+    text-decoration: none;
+    color: #F7F7FF;
+}
+
+/*
+ESSA LINHA DEFINE A COR DO HOVER DO NAVBAR
+*/
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: rgb(55, 55, 255) !important;
+}
+
+
+/*
+DEFINE A COR DO SVG
+*/
+path{
+    fill: white;
+}
+
+/*
+DEFINE TEXTO EM BRANCO COM CONTORNO PRETO
+*/
+.contorno{
+     color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}

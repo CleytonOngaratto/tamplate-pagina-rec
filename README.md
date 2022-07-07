@@ -1,2 +1,1 @@
-# tamplate-pagina
-tamplate da pagina para primeira entrega
+# Tamplate para pagina da equipe
