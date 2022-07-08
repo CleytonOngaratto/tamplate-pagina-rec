@@ -70,17 +70,25 @@ tag footer com bg-color3
 
 # Stylesheet (css)
 
+Nosso css possui algumas classes já definidas
+
+## Cores 
+
 Nosso css possui as 3 cores utilizadas na pagina
 
-## codigo css
 
 ![image](https://user-images.githubusercontent.com/101137945/177883422-5b0ef33f-3c4e-4b50-9fde-50cb40f6e9ee.png)
 
+
+
+## Header
 
 A partir da linha 16 temos as classes que são utilizadas dentro do header
 
 ![image](https://user-images.githubusercontent.com/101137945/177883711-16a449e4-76c1-4e6b-8eed-6f9764dc479e.png)
 
+
+## EXTRA
 
 E por ultimo, uma classe que quando adicionada a uma tag de texto, deixa o texto branco com contorno preto
 
