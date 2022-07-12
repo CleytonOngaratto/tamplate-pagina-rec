@@ -1,3 +1,20 @@
+/*BREAKPOINTS DA PAGINA*/
+
+@media screen and (max-width: 553px) {
+    .fix-breakpoint {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .order1 {
+        order: 1;
+    }
+
+    .order2 {
+        order: 2;
+    }
+}
+
 /*
 BODY-COLOR // BG-COLOR2 // BG-COLOR3 - SÃO NOSSAS 3 CORES DO SITE
 */
