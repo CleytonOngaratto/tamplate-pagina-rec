@@ -1,67 +1,68 @@
+
 /*BREAKPOINTS DA PAGINA*/
+    @media screen and (max-width: 553px) {
+        .fix-breakpoint {
+            display: flex;
+            flex-direction: row;
+        }
 
-@media screen and (max-width: 553px) {
-    .fix-breakpoint {
-        display: flex;
-        flex-direction: row;
-    }
+        .order1 {
+            order: 1;
+        }
 
-    .order1 {
-        order: 1;
+        .order2 {
+            order: 2;
+        }
     }
-
-    .order2 {
-        order: 2;
-    }
-}
 
 /*
 BODY-COLOR // BG-COLOR2 // BG-COLOR3 - SÃO NOSSAS 3 CORES DO SITE
 */
-.body-color{
-    background-color: #F7F7FF;
-}
 
-.bg-color1{
-    background-color: #f7f7ff;
-}
+    .body-color{
+        background-color: #F7F7FF;
+    }
 
-.bg-color2{
-    background-color: #022B3A;
-}
+    .bg-color1{
+        background-color: #f7f7ff;
+    }
 
-.bg-color3{
-    background-color: #ffb400;
-}
+    .bg-color2{
+        background-color: #022B3A;
+    }
 
-.txt-color{
-    color: #022B3A !important;
-}
+    .bg-color3{
+        background-color: #ffb400;
+    }
 
-/* CLASSES DO HEADER */
-/*
-CLASS LOGIN - DEFINE A COR DO TEXTO COMO BRANCO E TIRA LINHAS EMBAIXO DO TEXTO
+    .txt-color{
+        color: #022B3A !important;
+    }
+
+
+/* CLASSES DO HEADER 
+    CLASS LOGIN - DEFINE A COR DO TEXTO COMO BRANCO E TIRA LINHAS EMBAIXO DO TEXTO
 */
-.login{
+    .login{
     text-decoration: none;
-}
+    }
 
 /*DEFINE COR DE DETALHES DA PAGINA, COMO NAVBAR*/
 
-.hover-color:hover{
-    color: white !important;
-}
+    .hover-color:hover{
+        color: white !important;
+    }
 
-a:hover,svg:hover {
-     fill:#F7F7FF !important;
-     color: white !important;
-}
+    a:hover,svg:hover {
+        fill:#F7F7FF !important;
+        color: white !important;
+    }
 
-.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: rgb(255, 255, 255) !important;
-}
+    .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: rgb(255, 255, 255) !important;
+    }
 
-.contorno{
-     color: rgb(255, 255, 255);
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
-}
+    .contorno{
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+    }
