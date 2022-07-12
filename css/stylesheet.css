@@ -39,6 +39,10 @@ BODY-COLOR // BG-COLOR2 // BG-COLOR3 - SÃO NOSSAS 3 CORES DO SITE
         color: #022B3A !important;
     }
 
+    .txt-color2{
+        color: #ffb400 !important;
+    }
+
 
 /* CLASSES DO HEADER 
     CLASS LOGIN - DEFINE A COR DO TEXTO COMO BRANCO E TIRA LINHAS EMBAIXO DO TEXTO
