@@ -14,7 +14,7 @@ BODY-COLOR // BG-COLOR2 // BG-COLOR3 - SÃO NOSSAS 3 CORES DO SITE
 }
 
 .bg-color3{
-    background-color: #FCEC52;
+    background-color: #ffb400;
 }
 
 .txt-color{
@@ -35,24 +35,15 @@ CLASS LOGIN - DEFINE A COR DO TEXTO COMO BRANCO E TIRA LINHAS EMBAIXO DO TEXTO
     color: white !important;
 }
 
+a:hover,svg:hover {
+     fill:#F7F7FF !important;
+     color: white !important;
+}
+
 .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: rgb(255, 255, 255) !important;
 }
 
-/*
-<<<<<<< HEAD
-DEFINE A COR DO SVG
-*/
-path{
-    fill: #022B3A;
-}
-
-
-/*
-=======
->>>>>>> bb7b7bb86671a441c31fd1d19f59aec43920ba11
-DEFINE TEXTO EM BRANCO COM CONTORNO PRETO
-*/
 .contorno{
      color: rgb(255, 255, 255);
     -webkit-text-stroke: 1px rgb(0, 0, 0);
