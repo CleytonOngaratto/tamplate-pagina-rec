@@ -1,33 +1,78 @@
+
+/*BREAKPOINTS DA PAGINA*/
+    @media screen and (max-width: 553px) {
+        .fix-breakpoint {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .order1 {
+            order: 1;
+        }
+
+        .order2 {
+            order: 2;
+        }
+    }
+
 /*
 BODY-COLOR // BG-COLOR2 // BG-COLOR3 - SÃO NOSSAS 3 CORES DO SITE
 */
-.body-color{
-    background-color: #F7F7FF;
-}
 
-.bg-color2{
-    background-color: #6279B8;
-}
+    .body-color{
+        background-color: #F7F7FF;
+    }
 
-.bg-color3{
-    background-color: #FFB400;
-}
+
+    .bg-color1{
+        background-color: #f7f7ff;
+    }
+
+    .bg-color2{
+        background-color: #022B3A;
+    }
+
+    .bg-color3{
+        background-color: #ffb400;
+    }
+
+    .txt-color{
+        color: #022B3A !important;
+    }
+
+    .txt-color2{
+        color: #ffb400 !important;
+    }
+
+
 
 /* CLASSES DO HEADER */ 
 /*
 CLASS LOGIN - DEFINE A COR DO TEXTO COMO BRANCO E TIRA LINHAS EMBAIXO DO TEXTO
 */
-.login{
+    .login{
     text-decoration: none;
-    color: #F7F7FF;
-}
+    }
 
-/*
-ESSA LINHA DEFINE A COR DO HOVER DO NAVBAR
-*/
-.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: rgb(55, 55, 255) !important;
-}
+/*DEFINE COR DE DETALHES DA PAGINA, COMO NAVBAR*/
+
+    .hover-color:hover{
+        color: white !important;
+    }
+
+    a:hover,svg:hover {
+        fill:#F7F7FF !important;
+        color: white !important;
+    }
+
+    .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .contorno{
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+    }
 
 
 /*
@@ -63,3 +108,4 @@ DEFINE TEXTO EM BRANCO COM CONTORNO PRETO
 .pad-top15{
     padding-top: 15px !important;
 }
+
