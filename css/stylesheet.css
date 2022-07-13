@@ -85,11 +85,11 @@ DEFINE TEXTO EM BRANCO COM CONTORNO PRETO
 
 /* PÁGINA CONTATO */
 .cor-botao-contato {
-    background: #ffb400  !important;
+    background: #06d6a0  !important;
     color: #FFF !important;
   }
   .btn:hover {
-     color: #ffb400 !important;
+     color: #06d6a0 !important;
      background-color: #FFF !important;
      border-color: #FFF !important; 
 }
