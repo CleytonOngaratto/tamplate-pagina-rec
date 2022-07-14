@@ -128,18 +128,4 @@ DEFINE TEXTO EM BRANCO COM CONTORNO PRETO
     padding-top: 15px !important;
 }
 
-/*CLASSES DA PAGINA HOME*/
-
-.div-img {
-    height: 700px;
-    width: 500px;
-    background-size: cover;
-    background-position: center; 
-    margin-bottom: 0px;
-}
-
-.txt-index{
-    height: 700px;
-    width: 450px;
-}
 
