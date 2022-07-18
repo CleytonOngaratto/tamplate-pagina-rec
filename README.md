@@ -11,3 +11,11 @@ aqui:
 
 aqui: https://equipe51recode.github.io/tamplate-pagina/
 
+
+# escopo do projeto
+
+
+aqui:
+![image](https://user-images.githubusercontent.com/101137945/179549633-6f1780de-1c33-446b-9457-fb201aac65b4.png)
+
+
