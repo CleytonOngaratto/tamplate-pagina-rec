@@ -9,7 +9,7 @@ aqui:
 
 # link da atividade funcional
 
-aqui: https://equipe51recode.github.io/tamplate-pagina/
+aqui: https://equipe51recode.github.io/entrega-recode/
 
 
 # escopo do projeto
